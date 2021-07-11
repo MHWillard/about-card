@@ -1,0 +1,28 @@
+So I want to set up a blog framework. Now, I'd love to make the whole thing but real talk that's going to eat time. I want a project I can finish a little quicker, and used to practice subskills. Namely, I want to focus on my styling and using TypeScript this time around. So here's my plan:
+
+1. use an existing blog package to set up the backend.
+2. install React on top.
+3. install typescript.
+4. style my own custom theme with React and TypeScript.
+5. use typescript to fully set up the blog package.
+6. make sure we can post, edit, and delete.
+7. push to heroku/github pages.
+
+7/10
+Initialized repo
+Set up node.js basics
+
+7/11
+laid out design plan for layout and modules
+designed wireframe of site
+
+*****
+APP STRUCTURE
+-components
+--component.tsx files
+-css
+--css
+-ts
+--app.ts
+index.html
+app.js
