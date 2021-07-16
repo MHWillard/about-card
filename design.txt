@@ -1,0 +1,62 @@
+So let's review the app.
+
+=What went right?
+-I used more formal docs more often to puzzle out problems.
+-Backend work went pretty well and I was able to realize a more vertical slice there.
+-The experience with the Twitter bot helped me pull things together a little more easily.
+-It was a great learning experience to get an understanding of how a full stack comes together.
+-I didn't have to fight with React very hard, I was able to tame it a lot better.
+
+=What needed improvement?
+-The UI design was challenging. I struggled with flexbox/grid, along with proper styling with Bootstrap. That ate a lot of time.
+-Having to redesign some stuff on the fly ate up even more time, especially when I clashed against trying to realize the UI.
+-Not really knowing how to design a nice, modern website really hurt progress.
+-I failed to implement several packages as planned. Notably, I ended up not using TypeScript at all, nor did I do any formal testing.
+-Near the end I really went "Fuck it" and copied a lot from a Bootstrap example just to get something together and done.
+
+=How can we improve for next time?
+-We've done this a few times before, but on the side we drilled concept as we went alongside the main project to assist. We might need to do this for flexbox/grid if we want to get better at it, since we're looking to make more fullstack apps.
+-Do more design up front. That means the UI, packages used, code layout, modules...really construct the entire thing and work out those problems from the get-go before coding. 
+-It might be best to tackle one new thing at a time. I want to do TypeScript. Later on we'll drill testing exercises. But don't saddle it too much, too fast.
+
+*****
+
+So what's the next project going to be?
+-It should be one that stretches knowledge and reinforces existing skills.
+-It shouldn't be massive. It's better to build smaller things, get it done and out.
+-Would still like for it to be fullstack. Same languages of course.
+-Something less predictable and more fun/useful.
+
+I'd like to build another website. A minimalist blog platform sounds really good BUT also pretty challenging (I would definitely rely on existing work for this). Though of course the idea is to learn, not to work in a production environment. It's also to build career skills.
+
+Still, SMALLER IS WAY BETTER. SHIP THINGS.
+--SMALLER. Let's do a blog site but don't worry about adding content and stuff. Focus on:
+--ui/ux design
+--login and authenticate
+-->fill in post gunk on backend, and focus on CSS/TypeScript/login/authenticate
+OR: use existing code package for other stuff, then build your own theme
+
+ideas:
+-minimalist blog platform
+--posting: update, get, post, delete
+--pagination with posts
+--search
+--secure login/authentication
+--simple but effective UI
+-online storefront
+--API frontend: have a site fetch API data and render it (and build pagination, etc.)
+
+CODEHOLE - a minimalist blog site. There's a way to read existing posts, see an about page, search existing posts.
+-it's a two column website. Left is the content (a paginated component) and right is other options: search, categories, etc. Maybe an about page.
+-navbar at the top: home, archives, about.
+-home displays up to 5 posts with pagination.
+-archives lists every post in order by title. clicking on it loads the post in its own page.
+-each post is assigned a category
+-about displays a small about page about the theme and the author.
+-you can create a new post by clicking on a new post icon at the navbar. It lets you add a post with name, content, and category. It then publishes it and pushes it to your DB.
+
+THE PLAN:
+-install Hexo for backend stuff
+-use React client/TypeScript
+-code and build and style your own frontend
+-maybe after that: login/auth
