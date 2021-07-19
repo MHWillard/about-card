@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: red;
+}
+
+.container-content {
+  background-color: blue;
+}
+
+/*
+MainContainer
+-very light background color
+
+Navbar
+-black or very dark color
+-name, then the various pages as button links aligned to the right
+
+NavbarButtons
+-white text, invisible background
+-grow effect on hover over button; text gets bigger
+-on click: on the current page, they get a white underline
+
+ContainerContent
+-fades in on start to about page: features picture and content in columns
+-each component of content follows this order
+
+*/

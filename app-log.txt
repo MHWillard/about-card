@@ -31,6 +31,13 @@ install in client: npm install --save typescript @types/node @types/react @types
 restarted IDE: new types now recognized
 still working on getting everything to run and import properly
 
+7/17
+moved components folder inside of src: import worked, able to launch frontend
+
+7/18
+pseudocoded layout and began to work on static site
+NEXT: add bootstrap and set up grid layout as intended
+
 *****
 RESOURCES
 https://github.com/typescript-cheatsheets/react (typescript cheatsheet for react)
