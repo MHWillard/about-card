@@ -1,4 +1,3 @@
-import React from 'react';
 import ContainerContent from '../components/ContainerContent';
 
 function MainContainer() {

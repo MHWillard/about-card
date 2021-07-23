@@ -38,6 +38,18 @@ moved components folder inside of src: import worked, able to launch frontend
 pseudocoded layout and began to work on static site
 NEXT: add bootstrap and set up grid layout as intended
 
+7/19
+layout design of app with bootstrap install
+
+7/20
+set up navbar in Bootstrap; working on aligning buttons
+
+7/21
+further refinement of padding and styling
+
+7/23
+further styling
+
 *****
 RESOURCES
 https://github.com/typescript-cheatsheets/react (typescript cheatsheet for react)

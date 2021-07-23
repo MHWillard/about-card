@@ -1,4 +1,4 @@
-import React from 'react';
+import AboutContent from '../components/AboutContent';
 
 /*
 Depending on the class, ContainerContent rotates with other components for different content: about, social, etc.
@@ -7,7 +7,7 @@ Depending on the class, ContainerContent rotates with other components for diffe
 function ContainerContent() {
     return(
         <div className="container-content">
-            <h1>container content</h1>
+            <AboutContent />
         </div>
     );
 }
