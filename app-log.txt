@@ -50,6 +50,10 @@ further refinement of padding and styling
 7/23
 further styling
 
+7/29: added fontawesome icons, added searchbar, adjusted padding/font
+
+7/30: continued working with adjusting the navbar search: will probably need to rebuild it to get to scale well; still need to add better responsive controls
+
 *****
 RESOURCES
 https://github.com/typescript-cheatsheets/react (typescript cheatsheet for react)
