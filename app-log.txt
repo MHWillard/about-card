@@ -54,6 +54,8 @@ further styling
 
 7/30: continued working with adjusting the navbar search: will probably need to rebuild it to get to scale well; still need to add better responsive controls
 
+8/1: cleaned up arrangement of footer, added better reponsive columns
+
 *****
 RESOURCES
 https://github.com/typescript-cheatsheets/react (typescript cheatsheet for react)

@@ -6,7 +6,7 @@ Depending on the class, ContainerContent rotates with other components for diffe
 
 function ContainerContent() {
     return(
-        <div className="container-content">
+        <div className="container-content container-fluid">
             <AboutContent />
         </div>
     );
