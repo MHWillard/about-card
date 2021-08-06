@@ -56,6 +56,25 @@ further styling
 
 8/1: cleaned up arrangement of footer, added better reponsive columns
 
+8/3: converted containercontent to class with state and setting up types; working on conditional component rendering for profile.
+
+8/5: restructuring and planning for state and properties
+
+8/6
+converted components to TypeScript format
+added typed state, events, and props to get navbar working and switching components
+added all component switching functions
+
+*****
+X Add portfolio component.
+X Set up link command to switch between components on clicking navbar buttons.
+X Add social component and link.
+X Add contact component and link.
+B1 Adjust component size on smaller size for navbar.
+B2 Fix gap in sticky filter.
+C1 Reduce padding on components on responsive resize.
+C2 Add component content.
+
 *****
 RESOURCES
 https://github.com/typescript-cheatsheets/react (typescript cheatsheet for react)
