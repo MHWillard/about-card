@@ -65,6 +65,12 @@ converted components to TypeScript format
 added typed state, events, and props to get navbar working and switching components
 added all component switching functions
 
+8/9
+developing social content links
+
+8/11
+added modals for portfolio gallery; adjusting social media icons
+
 *****
 X Add portfolio component.
 X Set up link command to switch between components on clicking navbar buttons.

@@ -1,6 +1,4 @@
 import thumbnail from '../avatar2.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
 
 function ContactContent() {
     return(
@@ -20,11 +18,11 @@ function ContactContent() {
                 
                 <div className='col-md-8 col-xs-12 '>
                     <div className='about-summary align-self-center'>
-                    <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
-                    <p>Twitter icon</p>
-                    <p>facebook icon</p>
-                    <p>Instagram icon</p>
-                    <p>Email icon</p>
+                        <div className="contact-content">
+                        Get in touch at: <br />
+                        spot@fi.do
+                        </div>
+                        
                     </div>
                 </div>
             </div>
